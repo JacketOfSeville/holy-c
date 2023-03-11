@@ -4,7 +4,7 @@
 int i = 1;
 int objetivo = 179;
 
-int main () {   // Pacote a ser utilizado
+int Incrementador () {   // Pacote a ser utilizado
   do {
     printf("Num. %d\n", i); // Imprime o número contido em 'i'
     i++; // Incrementa 'i' em 1
