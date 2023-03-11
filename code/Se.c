@@ -4,12 +4,20 @@
 
 int main() {
   bool a;
+  bool b;
+  bool c;
+
   a = true;
+  b = false;
+  c = true;
+
   
   if (a) {
     printf("A é verdadeiro\n");
-  } else {
-    printf("A não é verdadeiro\n");
+  } else if (b) {
+    printf("B é verdadeiro\n");
+  } else if (c) {
+    printf("C é verdadeiro\n");
   }
   
   return 0;
