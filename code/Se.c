@@ -3,18 +3,13 @@
 #include<stdbool.h>
 
 int main() {
-  bool a;
-  bool b;
-  bool c;
+  bool a = false;
+  bool b = true;
+  bool c = true;
 
-  a = true;
-  b = false;
-  c = true;
-
-  
   if (a) {
     printf("A é verdadeiro\n");
-  } else if (b) {
+  } else if (b ) {
     printf("B é verdadeiro\n");
   } else if (c) {
     printf("C é verdadeiro\n");
